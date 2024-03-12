@@ -1,7 +1,7 @@
 {
   "name": "lourenco-json-storage-glitch",
   "version": "0.2.0",
-  "description": "Simple remote storage using Glitch with SQLite database",
+  "description": "Simple remote storage using Glitch",
   "main": "server.js",
   "scripts": {
     "test": "jest",
@@ -10,7 +10,6 @@
   "keywords": [
     "node",
     "glitch",
-    "sqlite",
     "remote storage"
   ],
   "author": "Leonardo Lourenço Crespilho",
@@ -30,11 +29,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
-    "axios": "^1.6.7",
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
     "jest": "^29.7.0",
-    "superagent": "^8.1.2",
     "supertest": "^6.3.4"
   }
 }
