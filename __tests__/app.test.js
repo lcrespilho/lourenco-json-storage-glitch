@@ -33,7 +33,7 @@ test('GET tests', async () => {
   await expect((await request(app).get('/test2')).body).toEqual('test2')
   await expect((await request(app).get('/test3')).body).toEqual('test3')
   await expect((await request(app).get('/test4')).body).toEqual('')
-  response = await request(app).get('/')
+  let response = await request(app).get('/')
   expect(response.body).toEqual({
     test1: {
       value: 'test1',
