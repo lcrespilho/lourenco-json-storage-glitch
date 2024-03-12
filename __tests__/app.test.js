@@ -2,7 +2,7 @@ const request = require('supertest')
 const app = require('../app')
 const fs = require('fs')
 
-jest.setTimeout(1000000)
+jest.setTimeout(120000)
 jest.useFakeTimers()
 
 beforeAll(() => {

@@ -4,7 +4,7 @@ const fs = require('fs')
 /** @type {JsonStorage} */
 let jsonStorage
 
-jest.setTimeout(1000000)
+jest.setTimeout(120000)
 jest.useFakeTimers()
 
 beforeEach(() => {
