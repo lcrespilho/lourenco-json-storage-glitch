@@ -2,7 +2,7 @@
   "name": "lourenco-json-storage-glitch",
   "version": "0.2.0",
   "description": "Simple remote storage using Glitch with SQLite database",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "start": "node server.js"
@@ -26,7 +26,7 @@
     "node": "14.x"
   },
   "repository": {
-    "url": ""
+    "url": "https://github.com/lcrespilho/lourenco-json-storage-glitch"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
